@@ -1,4 +1,4 @@
-const KEY = "3290eacf0e81438cab1132611233010"
+const KEY = "TOKEN"
 fetch(`https://api64.ipify.org?format=json`)
     .then(response => response.json())
     .then(data => {
